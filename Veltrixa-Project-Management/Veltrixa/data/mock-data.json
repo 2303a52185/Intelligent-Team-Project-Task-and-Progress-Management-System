@@ -1,0 +1,151 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "FoodFinder",
+            "description": "Restaurant recommendation web application",
+            "startDate": "2026-10-20",
+            "deadline": "2026-11-30",
+            "manager": "Athiqa",
+            "status": "Active",
+            "progress": 65
+        },
+        {
+            "id": 2,
+            "name": "Student Portal",
+            "description": "Student academic information portal",
+            "startDate": "2026-10-25",
+            "deadline": "2026-12-05",
+            "manager": "Rahul",
+            "status": "Active",
+            "progress": 40
+        },
+        {
+            "id": 3,
+            "name": "AI Prediction",
+            "description": "Machine learning prediction dashboard",
+            "startDate": "2026-09-15",
+            "deadline": "2026-10-28",
+            "manager": "Priya",
+            "status": "Completed",
+            "progress": 100
+        }
+    ],
+    "members": [
+        {
+            "id": 1,
+            "name": "Athiqa",
+            "email": "athiqa@example.com",
+            "role": "Project Manager",
+            "tasks": 4
+        },
+        {
+            "id": 2,
+            "name": "Rahul",
+            "email": "rahul@example.com",
+            "role": "Team Leader",
+            "tasks": 5
+        },
+        {
+            "id": 3,
+            "name": "Priya",
+            "email": "priya@example.com",
+            "role": "Team Member",
+            "tasks": 3
+        },
+        {
+            "id": 4,
+            "name": "Arjun",
+            "email": "arjun@example.com",
+            "role": "Team Member",
+            "tasks": 2
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Design login page",
+            "description": "Create a responsive login page and validate required fields.",
+            "project": "FoodFinder",
+            "assignee": "Priya",
+            "priority": "High",
+            "deadline": "2026-11-01",
+            "status": "Completed",
+            "comments": [
+                {
+                    "by": "Priya",
+                    "text": "Initial design completed."
+                }
+            ],
+            "reviewComment": "Looks good."
+        },
+        {
+            "id": 2,
+            "title": "Build dashboard cards",
+            "description": "Create dashboard summary cards using Bootstrap.",
+            "project": "FoodFinder",
+            "assignee": "Athiqa",
+            "priority": "Medium",
+            "deadline": "2026-11-08",
+            "status": "In Progress",
+            "comments": [],
+            "reviewComment": ""
+        },
+        {
+            "id": 3,
+            "title": "Prepare student profile screen",
+            "description": "Build student profile details page.",
+            "project": "Student Portal",
+            "assignee": "Arjun",
+            "priority": "Low",
+            "deadline": "2026-11-06",
+            "status": "To Do",
+            "comments": [],
+            "reviewComment": ""
+        },
+        {
+            "id": 4,
+            "title": "Test prediction results",
+            "description": "Check model output display and edge cases.",
+            "project": "AI Prediction",
+            "assignee": "Rahul",
+            "priority": "High",
+            "deadline": "2026-10-28",
+            "status": "Completed",
+            "comments": [],
+            "reviewComment": ""
+        },
+        {
+            "id": 5,
+            "title": "Review project documentation",
+            "description": "Review README and user instructions.",
+            "project": "Student Portal",
+            "assignee": "Athiqa",
+            "priority": "Medium",
+            "deadline": "2026-11-12",
+            "status": "Review",
+            "comments": [],
+            "reviewComment": ""
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "person": "Priya",
+            "message": "completed the login page design.",
+            "when": "Today · 10:20 AM"
+        },
+        {
+            "id": 2,
+            "person": "Rahul",
+            "message": "updated the FoodFinder project timeline.",
+            "when": "Today · 09:45 AM"
+        },
+        {
+            "id": 3,
+            "person": "Arjun",
+            "message": "started work on the student profile screen.",
+            "when": "Yesterday"
+        }
+    ]
+}
