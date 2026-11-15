@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Veltrixa</title>
+  <meta http-equiv="refresh" content="0; url=login.html">
+  <script>
+    // Signed in (demo session)? go to the dashboard, otherwise to the login page.
+    location.replace(sessionStorage.getItem("veltrixa_session") ? "dashboard.html" : "login.html");
+  </script>
+</head>
+<body><p>Opening Veltrixa… <a href="login.html">Continue to the login page</a></p></body>
+</html>

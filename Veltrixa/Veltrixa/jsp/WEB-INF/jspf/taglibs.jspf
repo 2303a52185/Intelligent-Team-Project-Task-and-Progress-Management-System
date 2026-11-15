@@ -1,0 +1,5 @@
+<%-- Loaded automatically before every JSP by web.xml (include-prelude).
+     Tomcat 9 / Jakarta EE 8 and older use these addresses.
+     Tomcat 10.1+ / Jakarta EE 10: change them to  jakarta.tags.core  and  jakarta.tags.functions . --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
